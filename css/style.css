@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+.backgroundimg{
+    background: url(/catalog.jpg);
+    background-size:cover;
+}
+
+
+
+.hero{
+    margin-top: 8%;
+    margin-right: 62%;
+}
+
+@media only screen and (max-width:600px){
+    
+    .mobile-only{
+        
+        width:300px;
+        height: 200px;
+        margin-top:240px;
+        margin-left:10px;
+        padding: 0px;
+    }
+    
+
+}
+
+.fontsize {
+    font-size: 40px;
+}
+
+.catalogsize{
+    width:600px;
+    height: 400px;
+}
+
+.catalogbacktext{
+    background: white;
+}
+
+.catalogpsize{
+    width:348px;
+    height: 225px;
+}
+
+.catalogpadding{
+    padding-top:20px;
+}
+
+.cartmargin{
+    margin-top:20px;
+}
+
+.cartsize{
+    width:100px;
+    height:100px;
+}
+
+.checkmargin{
+    float: left;
+    margin-top:20px;
+    margin-left:50px;
+    width:400px;
+   
+}
+
+
+.border{
+    padding: 2px;
+    border:2px solid red !important;
+}
+
+.secform{
+    float: left;
+    margin-top:20px;
+    margin-left:50px;
+    padding: 20px;
+    width:400px;
+       
+}
+
+@media only screen and (max-width:600px){
+    
+    .display-mobile-only{
+        width:350px;
+        margin-left:10px;
+        padding: 0px;
+    }
+    
+
+}
+
+.centeralign{
+    text-align: center;
+}
+
+.cartsum{
+    float: left;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.backcart{
+    background: tomato;
+    background-size: cover;
+    font-family: 'Poor Story', cursive;
+
+}
+
+.backshcart{
+    background: tomato;
+    font-family: 'Marck Script', cursive;
+   
+}
+
+.backabout{
+    background:tomato;
+    margin-top:20px;
+      
+}
+
+.aboutfont{
+    font-family: 'Black And White Picture', sans-serif;
+}
+
+.aboutimage{
+    width: 600px;
+    margin-left:220px;
+}
+
+.contact{
+    margin-left:48%;
+}
+
+
+
+@media only screen and (max-width:600px){
+    
+    .imgabout{
+        width:320px;
+        float:left;
+        margin: 0px;
+    }
+    
+    
+    .about-mobile-only{
+        width:350px;
+        margin: auto;
+        padding: 0px;
+    }
+    
+
+
+}
+
